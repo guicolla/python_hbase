@@ -26,9 +26,15 @@ And a file in my case i use u.data file, you cand find this file into this datas
 http://files.grouplens.org/datasets/movielens/ml-100k.zip
 
 You need to change this line of code for your HBase IP:
-```c = Connection("192.168.56.13","8000")```
+```
+c = Connection("192.168.56.13","8000")
+```
 And this line of code for you file
-```ratingFile = open("/tmp/ml-100k/u.data","r")```
+```
+ratingFile = open("/tmp/ml-100k/u.data","r")
+```
 
 After change this line you just need execute the code
-```python hbase.py```
+```
+python hbase.py
+```
